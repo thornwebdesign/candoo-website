@@ -1,0 +1,64 @@
+body {
+    background-color: red;
+}
+
+.navbar {
+    height: 160px;
+    background: #aaa;
+}
+
+.main-hero {
+    min-height: 52vh;
+    background-color: #bbb;
+}
+
+.support-info-section {
+    min-height: 400px;
+    background-color: #ccc;
+}
+
+.what-we-do-section {
+    min-height: 700px;
+    background-color: #ddd;
+}
+
+.who-is-it-for-section {
+    min-height: 700px;
+    background-color: #eee;
+}
+
+.hero-1 {
+    min-height: 700px;
+    background-color: #aaa111;
+}
+
+.hero-2 {
+    min-height: 700px;
+    background-color: #111222;  
+}
+
+.hero-3 {
+    min-height: 700px;
+    background-color: #000333;
+}
+
+.hero-special {
+    min-height: 700px;
+    background-color: #00ff84;
+}
+
+.newsletter-teaser {
+    min-height: 100px;
+    background-color: purple;
+}
+
+.footer {
+    min-height: 30vh;
+    background-color: orange;
+}
+.copyright {
+    min-height: 50px;
+    background-color: goldenrod;
+}
+
+
