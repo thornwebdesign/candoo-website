@@ -1,5 +1,31 @@
 # Components
 
+### Main Hero
+
+```html
+<div class="container-fluid">
+    <div class="container mt-4">
+        <div class="row mb-5 p-4">
+            <div class="col d-flex">
+                <div class="d-flex flex-column justify-content-start align-items-start">
+                    <h1 class="display-3">We make technology easy.</h1>
+                    <p>
+                        Candoo Tech provides tech support and training to help older adults feel more comfortable with phones, computers, tablets, and more. We work with enterprises including senior living communities, health plans and healthcare providers, social service agencies and directly with consumers. Our services are remote and nationwide.
+                    </p>
+                    <h3>Get started:</h3>
+                    <p>
+                        Consumers  |  Enterprises
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="/images/hero1.jpg" class="img-fluid" style="min-width: 700px;" />
+            </div>
+        </div>
+    </div>
+</div>
+```
+
 ### Hero Image Right with Text Left
 
 ```html
