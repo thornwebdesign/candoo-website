@@ -1,0 +1,51 @@
+# Node modules for React
+node_modules/
+
+# Symfony cache, logs, and sessions
+/var/cache/
+/var/logs/
+/var/sessions/
+/vendor/
+
+# Symfony .env files with sensitive information
+/.env
+/.env.local
+/.env.*.local
+
+# Symfony bin/console and public/index.php if not needed
+# /bin/console
+# /public/index.php
+
+# Docker files
+/docker-compose.override.yml
+*.log
+docker/tmp/*
+docker/data/*
+
+# MySQL files
+*.sql
+*.sql.gz
+
+# Redis files
+dump.rdb
+
+# WordPress specific
+/wp-config.php
+/wp-content/debug.log
+/wp-content/uploads/
+/wp-content/upgrade/
+
+# Common files to ignore in web projects
+/.sass-cache
+/.vagrant
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*~
+
+# Compiled statics
+/public/bundles/
+/public/build/
+/web/bundles/
+/web/build/
