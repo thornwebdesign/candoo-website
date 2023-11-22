@@ -69,3 +69,49 @@
 
 </div>
 ```
+
+## Navbar
+
+```html
+<div class="container-fluid navbar-container centered">
+    <div class="container px-4 d-flex flex-row align-items-center justify-content-start">
+        <div class="brand">
+            <img src="/images/logo.png" class="img-fluid" />
+        </div>
+        <div class="navbar mx-3" style="flex: 1;">
+            <ul class="d-flex flex-row justify-content-start align-items-center">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Consumers</a>
+                </li>
+                <li>
+                    <a href="#">Enterprises</a>
+                </li>
+                <li>
+                    <a href="#">Resources</a>
+                </li>
+                <li>
+                    <a href="#">Order Now</a>
+                </li>
+                <li>
+                    <a href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
+        <div class="action-buttons">
+            <div class="row">
+                <div class="btn btn-primary text-light">Members Support</div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+## Navbar Item
+
+```html
+<li>
+    <a href="#">Home</a>
+</li>
+```
