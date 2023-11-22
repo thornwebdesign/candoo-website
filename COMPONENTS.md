@@ -172,3 +172,69 @@
     </div>
 </div>
 ```
+
+## I need Candoo Tech for
+
+> Card 
+```html
+<div class="col">
+                 <div class="text-center">
+                     <img src="/images/card-image1.jpg" class="img-fluid" />
+                     <h3>Myself</h3>
+                 </div>
+                 <div class="mt-2 p-2">
+                     <div class="d-flex flex-row justify-content-start align-items-center">
+                         <span class="flex-grow-1 text-align-left pe-2">Get the help you need right now.</span>
+                         <div class="btn btn-primary text-light text-center">Get Started</div>
+                     </div>
+                 </div>
+             </div>
+```
+
+```html
+<div class="container-fluid mb-5">
+     <div class="container">
+         <div class="text-center py-4">
+             <h1 class="display-4 text-primary">I need Candoo Tech for…</h1>
+         </div>
+         <div class="row">
+             <div class="col">
+                 <div class="text-center">
+                     <img src="/images/card-image1.jpg" class="img-fluid" />
+                     <h3>Myself</h3>
+                 </div>
+                 <div class="mt-2 p-2">
+                     <div class="d-flex flex-row justify-content-start align-items-center">
+                         <span class="flex-grow-1 text-align-left pe-2">Get the help you need right now.</span>
+                         <div class="btn btn-primary text-light text-center">Get Started</div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="text-center">
+                     <img src="/images/card-image2.jpg" class="img-fluid" />
+                     <h3>My loved ones</h3>
+                 </div>
+                 <div class="">
+                     <div class="d-flex flex-row justify-content-center align-items-start">
+                         <span class="flex-grow-1 text-align-left">Give the help your loved ones need.</span>
+                         <div class="btn btn-primary text-light text-center">Get Started</div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="">
+                     <img src="/images/card-image3.jpg" class="img-fluid" />
+                     <h3>My residents, clients & members</h3>
+                 </div>
+                 <div class="">
+                     <div class="d-flex flex-row justify-content-center align-items-start">
+                         <span class="flex-grow-1 text-align-left pe-2">Learn how Candoo partners with senior living communities, health plans, healthcare & social service & government agencies.</span>
+                         <div class="btn btn-primary text-light">Get Started</div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+```
