@@ -1,6 +1,14 @@
 # Components
 
-### Main Hero
+## Action Buttons
+
+```html
+<div class="btn btn-primary text-light px-4 py-3 me-3">
+    Consumers learn more
+</div>
+```
+
+## Main Hero
 
 ```html
 <div class="container-fluid">
@@ -26,7 +34,7 @@
 </div>
 ```
 
-### Hero Image Right with Text Left
+## Hero Image Right with Text Left
 
 ```html
 <div class="row mb-5 p-3">
@@ -50,7 +58,7 @@
 </div>
 ```
 
-### Hero Image Left with Text Right
+## Hero Image Left with Text Right
 
 ```html
 <div class="row mb-5 p-3">
@@ -108,10 +116,59 @@
     </div>
 </div>
 ```
+
 ## Navbar Item
 
 ```html
 <li>
     <a href="#">Home</a>
 </li>
+```
+
+## What We Do Section
+
+> What we do card
+
+```html
+<div class="card border-0">
+    <img src="/images/service1.png" class="img-fluid" />
+    <span class="card-text fs-4 fw-bold">Remote Lessons & Support</span>
+</div>
+```
+
+```html
+<div class="container-fluid mb-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h1 class="text-primary display-3">What We Do</h1>
+        </div>
+        
+        <div class="row text-center mt-2 mb-5">
+            <div class="col">
+                <div class="card border-0">
+                    <img src="/images/service1.png" class="img-fluid" />
+                    <span class="card-text fs-4 fw-bold">Remote Lessons &
+                        Support</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="/images/service2.png" class="img-fluid" />
+                    <span class="card-text fs-4 fw-bold">Library of On-Demand How To Guides & Videos</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="/images/service3.png" class="img-fluid" />
+                    <span class="card-text fs-4 fw-bold">Group Lessons</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="d-flex flex-row justify-content-center align-items-center mt-5">
+            <div class="btn btn-primary text-light px-4 py-3 me-3">Consumers learn more</div>
+            <div class="btn btn-primary text-light px-4 py-3">Enterprises learn more</div>
+        </div>
+    </div>
+</div>
 ```
