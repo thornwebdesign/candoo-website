@@ -331,3 +331,20 @@
     </div>
 </div>
 ```
+
+## Support Info Section
+
+```html
+<div class="container-fluid mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center d-flex flex-column justify-content-center align-items-center">
+                <span class="display-4 text-primary fw-bold mb-4">Your safety and security is our top priority.</span>
+                <span class="text-dark fs-4">Give us a call at <strong>646-758-6606</strong> or email <strong class="text-primary">support@candootech.com</strong> to get started.</span>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</div>
+```
