@@ -5,6 +5,19 @@
     align-items: center;
 }
 
+.footer ul li  a,
+.footer ul li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 60px 0px;
+}
+
+
 ul {
     list-style-type: none;
     padding: 0px;
@@ -69,10 +82,6 @@ ul li a {
     background-color: purple;
 }
 
-.footer {
-    min-height: 30vh;
-    background-color: orange;
-}
 .copyright {
     min-height: 50px;
     background-color: goldenrod;
