@@ -335,7 +335,7 @@
 ## Support Info Section
 
 ```html
-<div class="container-fluid mt-5">
+<div class="container-fluid my-5 py-5">
     <div class="container">
         <div class="row">
             <div class="col-2"></div>
