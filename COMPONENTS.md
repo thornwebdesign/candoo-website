@@ -348,3 +348,50 @@
     </div>
 </div>
 ```
+
+## Newsletter
+
+```html
+<div class="container-fluid my-5">
+    <div class="container">
+        <div class="text-center">
+            <span class="fs-5 text-dark">Get free resources and up to date information. <a href="#"
+                    class="text-primary fw-bold">Join our newsletter.</a></span>
+        </div>
+    </div>
+</div>
+```
+
+## Copyright Section
+
+```html
+<div class="container-fluid  my-5">
+    <div class="container">
+        <div class="d-flex flex-row justify-content-center align-items-center fs-1">
+            <span class="fs-4 me-5">©2021 Candoo Tech. All Rights Reserved.</span>
+            <ul class="d-flex flex-row justify-content-around align-items-center">
+                <li>
+                    <a href="#" class="px-2">
+                        <i class="bi bi-instagram instagram-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="px-2">
+                        <i class="bi bi-twitter-x twitter-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="px-2">
+                        <i class="bi bi-linkedin linkedin-color"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="px-2">
+                        <i class="bi bi-facebook facebook-color"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+```
