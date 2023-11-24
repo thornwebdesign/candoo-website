@@ -22,12 +22,12 @@ interface State {
 /**
  * 
  */
-class Section extends Component<Props, State> {
+class _Component extends Component<Props, State> {
     /**
      *
      *
      * @type {Readonly<State>}
-     * @memberof Section
+     * @memberof _Component
      */
     state: Readonly<State> = {
 
@@ -45,7 +45,7 @@ class Section extends Component<Props, State> {
     }
 }
 
-export default {Section as Name}
+export { _Component as Name }
 ```
 
 ## Section Container
