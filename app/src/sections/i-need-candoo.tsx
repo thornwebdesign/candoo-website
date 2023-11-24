@@ -36,14 +36,17 @@ function INeedCandooSection() {
                 <div className="row">
                     {services.map(service => (
                         <div className="col">
-                            <div className="text-center">
+                            <div className="text-center position-relative">
                                 <img src={service.imageSource} className="img-fluid" />
-                                <h3>{service.caption}</h3>
+                                <div className="position-absolute top-0 start-0 end-0 bottom-0 d-flex flex-column justify-content-center align-items-center">
+                                    <h3 >{service.caption}</h3>
+                                </div>
+
                             </div>
                             <div className="mt-2 p-2">
-                                <div className="d-flex flex-row justify-content-start align-items-center">
-                                    <span className="flex-grow-1 text-align-left pe-2">{service.title}</span>
-                                    <div className="btn btn-primary text-light text-center">{service.buttonText}</div>
+                                <div className="d-flex flex-column justify-content-start align-items-center">
+                                    <span className="flex-grow-1 text-align-left pe-2 py-2 mb-2 fs-4" style={{minHeight: '100px'}}>{service.title}</span>
+                                    <div className="btn btn-primary text-light text-center px-3 py-2 fs-4">{service.buttonText}</div>
                                 </div>
                             </div>
                         </div>

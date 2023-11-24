@@ -6,17 +6,17 @@ interface ServiceInterface {
 
 const services: ServiceInterface[] = [
     {
-        imageSource: "https://placehold.co/800x450",
+        imageSource: "https://placehold.co/800x650",
         title: "Remote Lessons & Support",
         link: undefined
     },
     {
-        imageSource: "https://placehold.co/800x450",
+        imageSource: "https://placehold.co/800x650",
         title: "Library of On-Demand How To Guides & Videos",
         link: undefined
     },
     {
-        imageSource: "https://placehold.co/800x450",
+        imageSource: "https://placehold.co/800x650",
         title: "Group Lessons",
         link: undefined
     }
@@ -28,8 +28,8 @@ function WhatWeDoSection() {
     return (
         <div className="container-fluid mb-5">
             <div className="container">
-                <div className="text-center mb-4">
-                    <h1 className="text-primary display-3">What We Do</h1>
+                <div className="text-center mb-4 p-5">
+                    <h1 className="text-primary display-3 fw-light">What We Do</h1>
                 </div>
 
                 <div className="row text-center mt-2 mb-5">
@@ -37,7 +37,9 @@ function WhatWeDoSection() {
                         <div className="col">
                             <div className="card border-0">
                                 <img src={service.imageSource} className="img-fluid" />
-                                <span className="card-text fs-4 fw-bold">{service.title}</span>
+                                <div className="py-4">
+                                    <span className="card-text fs-4 fw-bold">{service.title}</span>
+                                </div>
                             </div>
                         </div>
                     ))}

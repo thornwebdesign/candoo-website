@@ -11,17 +11,17 @@ function LearnSomethingNewSection() {
                         easier and more fun!</span>
                 </div>
 
-                <CardImage alignment="left" imageSource="https://placehold.co/900x600" >
-                    <div className="d-flex flex-column justify-content-start align-items-start">
-                        <p>
+                <CardImage alignment="left" imageSource="https://placehold.co/600x600" >
+                    <div className="d-flex flex-column justify-content-start align-items-start py-4 ms-4">
+                        <p className="fs-4">
                             Our 1-on-1 or small group lessons give you simple, easy to understand instructions and leave you with
                             printed out step-by-step instructions.
                         </p>
-                        <p>
+                        <p  className="fs-4">
                             During COVID-19, all lessons are conducted by our remote software and Zoom. You can participate using your
                             mobile device or computer.
                         </p>
-                        <p>
+                        <p  className="fs-4">
                             Below is a list of what we offer currently, if there’s something you want to learn that’s not here, <a
                                 href="#" className="text-primary fw-bold">contact us</a> now.
                         </p>
@@ -29,12 +29,12 @@ function LearnSomethingNewSection() {
                             <span>
                                 <a href="#" className="text-primary fw-bold fs-4">Online Session</a>
                             </span>
-                            <div className="">
-                                <span>$75.00</span>
+                            <div className="fs-4 py-3">
+                                <span>$75.00 </span>
                                 <span><s>$90.00</s></span>
                             </div>
-                            <div className="btn btn-primary mt-5">
-                                <a href="#" className="text-light px-3 py-2">Purchase</a>
+                            <div className="btn btn-primary mt-3">
+                                <a href="#" className="text-light px-3 py-2 fs-4">Purchase</a>
                             </div>
                         </div>
                     </div>

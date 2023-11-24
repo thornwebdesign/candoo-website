@@ -12,7 +12,15 @@ interface Props {
  * 
  */
 interface State {
- 
+
+}
+
+const Image:React.FC<{imageSource: string}> = function ({imageSource}) {
+    return (
+        <div className="col-auto d-flex flex-column justify-content-center align-items-center">
+            <img src={imageSource} className="img-fluid" />
+        </div>
+    )
 }
 
 /**
@@ -34,23 +42,14 @@ class _Component extends Component<PropsWithChildren<Props>, State> {
         const { children, imageSource, alignment } = this.props
 
         return (
-            <div className="row mb-5 p-4">
-                {alignment === 'left' ? (
-                    <div className="col">
-                    <img src={imageSource} className="img-fluid" />
-                </div>
-                ) : null}
+            <div className="row mb-5 py-4">
+                {alignment === 'left' ? <Image imageSource={imageSource}/> : null}
                 <div className="col d-flex">
                     <div className="d-flex flex-column justify-content-start align-items-start">
                         {children}
                     </div>
                 </div>
-                {alignment === 'right' ? (
-                    <div className="col">
-                    <img src={imageSource} className="img-fluid" />
-                </div>
-                ) : null}
-
+                {alignment === 'right' ? <Image imageSource={imageSource}/> : null}
             </div>
         )
     }
