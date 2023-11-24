@@ -1,7 +1,6 @@
-import { CardImageRight } from "../components/card-image-right"
-import { Section } from "../components/section"
+import { CardImageRight, Section } from "../components"
 
-const HelpHeartBeatAway = function () {
+const HelpHeartBeatAwaySection = function () {
     return (
         <Section>
             <CardImageRight imageSource="https://placehold.co/800x400" >
@@ -15,4 +14,4 @@ const HelpHeartBeatAway = function () {
     )
 }
 
-export default HelpHeartBeatAway
+export default HelpHeartBeatAwaySection

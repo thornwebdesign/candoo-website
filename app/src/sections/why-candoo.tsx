@@ -1,5 +1,4 @@
-import { CardImageRight } from "../components/card-image-right"
-import { Section } from "../components/section"
+import { CardImageRight, Section } from "../components"
 
 const WhyCandoo = function () {
     return (

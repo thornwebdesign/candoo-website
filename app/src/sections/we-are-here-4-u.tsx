@@ -1,5 +1,4 @@
-import { CardImageLeft } from "../components/card-image-left"
-import { Section } from "../components/section"
+import { CardImageLeft, Section } from "../components"
 
 const WeAreHere4USection = function () {
     return (

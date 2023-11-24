@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Section } from '../components/section'
+import { Section } from '../components'
 
 /**
  * 
