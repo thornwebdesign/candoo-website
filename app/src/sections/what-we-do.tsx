@@ -1,3 +1,27 @@
+interface ServiceInterface {
+    imageSource: string
+    title: string
+    link?: string
+}
+
+const services: ServiceInterface[] = [
+    {
+        imageSource: "https://placehold.co/800x450",
+        title: "Remote Lessons & Support",
+        link: undefined
+    },
+    {
+        imageSource: "https://placehold.co/800x450",
+        title: "Library of On-Demand How To Guides & Videos",
+        link: undefined
+    },
+    {
+        imageSource: "https://placehold.co/800x450",
+        title: "Group Lessons",
+        link: undefined
+    }
+]
+
 
 function WhatWeDoSection() {
 
@@ -9,25 +33,14 @@ function WhatWeDoSection() {
                 </div>
 
                 <div className="row text-center mt-2 mb-5">
-                    <div className="col">
-                        <div className="card border-0">
-                            <img src="/images/service1.png" className="img-fluid" />
-                            <span className="card-text fs-4 fw-bold">Remote Lessons &
-                                Support</span>
+                    {services.map(service => (
+                        <div className="col">
+                            <div className="card border-0">
+                                <img src={service.imageSource} className="img-fluid" />
+                                <span className="card-text fs-4 fw-bold">{service.title}</span>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="card border-0">
-                            <img src="/images/service2.png" className="img-fluid" />
-                            <span className="card-text fs-4 fw-bold">Library of On-Demand How To Guides & Videos</span>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card border-0">
-                            <img src="/images/service3.png" className="img-fluid" />
-                            <span className="card-text fs-4 fw-bold">Group Lessons</span>
-                        </div>
-                    </div>
+                    ))}
                 </div>
 
                 <div className="d-flex flex-row justify-content-center align-items-center mt-5">
