@@ -1,9 +1,9 @@
-import { CardImageLeft, Section } from "../components"
+import { CardImage, Section } from "../components"
 
 const WeAreHere4USection = function () {
     return (
         <Section>
-            <CardImageLeft imageSource="https://placehold.co/800x400" >
+            <CardImage alignment="left" imageSource="https://placehold.co/800x400" >
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <h1>Ready? We’re here for you!</h1>
                     <p>
@@ -23,7 +23,7 @@ const WeAreHere4USection = function () {
                         <div className="btn btn-primary text-light">Members Support</div>
                     </div>
                 </div>
-            </CardImageLeft>
+            </CardImage>
         </Section >
     )
 }

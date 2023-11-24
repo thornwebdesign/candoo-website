@@ -1,9 +1,9 @@
-import { CardImageRight, Section } from "../components"
+import { CardImage, Section } from "../components"
 
 const WeMakeTechnologySection = function () {
     return (
         <Section>
-            <CardImageRight imageSource="https://placehold.co/600x400">
+            <CardImage alignment="right" imageSource="https://placehold.co/600x400">
                 <h1 className="display-3">We make technology easy.</h1>
                 <p>
                     Candoo Tech provides tech support and training to help older adults feel more comfortable
@@ -15,7 +15,7 @@ const WeMakeTechnologySection = function () {
                 <p>
                     Consumers | Enterprises
                 </p>
-            </CardImageRight>
+            </CardImage>
         </Section>
     )
 }

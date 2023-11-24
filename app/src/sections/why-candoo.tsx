@@ -1,9 +1,9 @@
-import { CardImageRight, Section } from "../components"
+import { CardImage, Section } from "../components"
 
 const WhyCandoo = function () {
     return (
         <Section>
-            <CardImageRight imageSource="https://placehold.co/800x400" >
+            <CardImage alignment="right" imageSource="https://placehold.co/800x400" >
                 <h1>Why Candoo Tech?</h1>
                 <p>
                     As one of the nation’s leading providers of tech support and training designed specifically
@@ -14,7 +14,7 @@ const WhyCandoo = function () {
                     Safety First: Our services are 100% remote. Also, we never access devices without your
                     permission and all our Tech Concierges are background-checked and U.S. based.
                 </p>
-            </CardImageRight>
+            </CardImage>
         </Section>
     )
 }

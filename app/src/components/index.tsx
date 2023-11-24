@@ -1,9 +1,7 @@
-import { CardImageLeft } from "./card-image-left"
-import { CardImageRight } from "./card-image-right"
+import { CardImage } from "./card-image"
 import { Section } from "./section"
 
 export {
-    CardImageLeft,
-    CardImageRight,
+    CardImage,
     Section
 }
