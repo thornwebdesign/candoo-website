@@ -1,4 +1,98 @@
 
+interface LinkInterface {
+    title: string
+    route: string
+    menus: string[]
+}
+
+const links: LinkInterface[] = [
+    {
+
+        title: "Consumers",
+        route: "/consumers",
+        menus: ['tech']
+    },
+    {
+        title: "Enterprises",
+        route: "/enterprises",
+        menus: ['tech']
+
+    },
+    {
+        title: "In the News",
+        route: "/in-the-news",
+        menus: ['tech']
+
+    },
+    {
+        title: "Blog",
+        route: "/blog",
+        menus: ['tech']
+
+    },
+    {
+        title: "Resources",
+        route: "/resources",
+        menus: ['tech']
+
+    },
+    {
+        title: "Media Resources",
+        route: "/media-resources",
+        menus: ['tech']
+    },
+    {
+        title: "About",
+        route: "/about",
+        menus: ['team']
+    },
+    {
+        title: "Careers",
+        route: "/careers",
+        menus: ['team']
+    },
+    {
+        title: "Partners",
+        route: "/partners",
+        menus: ['team']
+    },
+    {
+        title: "Members Support",
+        route: "/members-support",
+        menus: ['support']
+    },
+    {
+        title: "FAQ",
+        route: "/faq",
+        menus: ['support']
+    },
+    {
+        title: "Safety & Security",
+        route: "/safety-security",
+        menus: ['support']
+    },
+    {
+        title: "Privacy Policy",
+        route: "/privacy-policy",
+        menus: ['support']
+    },
+    {
+        title: "Terms of Use",
+        route: "/terms-of-use",
+        menus: ['support']
+    },
+    {
+        title: "support@candootech.com",
+        route: "/supportatcandootech.com",
+        menus: ['support']
+    },
+    {
+        title: "phone",
+        route: "/partners",
+        menus: ['support']
+    },
+]
+
 
 function FooterSection() {
 
@@ -11,64 +105,31 @@ function FooterSection() {
                             <div className="col">
                                 <h3>Candoo Tech</h3>
                                 <ul className="text-primary">
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Consumers</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Enterprises</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">In the News</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Blog</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Resources</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Media Resources</a>
-                                    </li>
+                                    {links.filter(l => l.menus.includes('tech')).map(link => (
+                                        <li className="nav-item">
+                                            <a href={link.route} className="nav-link text-primary">{link.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                             <div className="col">
                                 <h3>Team</h3>
                                 <ul className="text-primary">
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">About</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Careers</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Partners</a>
-                                    </li>
+                                    {links.filter(l => l.menus.includes('team')).map(link => (
+                                        <li className="nav-item">
+                                            <a href={link.route} className="nav-link text-primary">{link.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                             <div className="col">
                                 <h3>Support</h3>
                                 <ul className="text-primary">
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Members Support</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">FAQ</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Safety & Security</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Privacy Policy</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">Terms of Use</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">support@candootech.com</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link text-primary">(646)758-6606</a>
-                                    </li>
+                                    {links.filter(l => l.menus.includes('support')).map(link => (
+                                        <li className="nav-item">
+                                            <a href={link.route} className="nav-link text-primary">{link.title}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>
