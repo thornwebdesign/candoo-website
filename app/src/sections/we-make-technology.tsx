@@ -1,4 +1,4 @@
-import { CardImageRight } from "../card-image-right"
+import { CardImageRight } from "../components/card-image-right"
 import { Section } from "../components/section"
 
 const WeMakeTechnologySection = function () {
