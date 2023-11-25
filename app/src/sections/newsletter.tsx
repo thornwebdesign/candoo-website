@@ -35,8 +35,8 @@ class NewsLetterSection extends Component<Props, State> {
 
         return (
             <Section>
-                <div className="text-center">
-                    <span className="fs-5 text-dark">Get free resources and up to date information. <a href="#"
+                <div className="text-center my-5 py-5">
+                    <span className="fs-4 text-dark">Get free resources and up to date information. <a href="#"
                         className="text-primary fw-bold">Join our newsletter.</a></span>
                 </div>
             </Section>
